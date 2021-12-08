@@ -83,15 +83,15 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
-        'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost'
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'btredb',
+#         'USER': 'postgres',
+#         'PASSWORD': '1234',
+#         'HOST': 'localhost'
+#     }
+# }
 
 
 # Password validation
